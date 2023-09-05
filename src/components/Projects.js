@@ -8,13 +8,12 @@ export default function Home(props){
 	const navigate=useNavigate();
 	const addToCartBtn=(index)=>{
 		let product = Data[index];
-	
 	}
 	return(
 		<>
     <Navbar />
-		<div className="Projects">
-		<div className='container mx-auto'>
+	  <div className="Projects">
+	  <div className='container mx-auto'>
 			<div className='row'>
 				{Data.map((d,index)=>{
 					return(
