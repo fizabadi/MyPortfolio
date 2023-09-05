@@ -1,0 +1,41 @@
+.about {
+    padding: 50px 0;
+    background-color:rgb(10, 10, 34);
+    color: aliceblue;
+  }
+  
+  .text-font {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 80px;
+
+  }
+  
+  
+  
+  .text-1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 120px;
+    
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Style for smaller screens (e.g., mobile devices) */
+  @media (max-width: 767px) {
+    .col-lg-7 {
+      order: 2;
+    }
+  
+    .col-lg-5 {
+      order: 1;
+    }
+  }
+  

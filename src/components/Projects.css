@@ -1,0 +1,55 @@
+/* Home.css */
+
+.Projects {
+  padding: 20px;
+  background-color:rgb(10, 10, 34);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-sm-4 {
+  flex: 0 0 calc(33.33% - 20px); /* Adjust the width based on your design */
+  margin: 10px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  color: aliceblue;
+  text-align: justify;
+}
+/* .link{
+  margin-top: 60px;
+} */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+b {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Add to Cart button styles (uncomment the button in your code to use this) */
+/* .button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+} */
